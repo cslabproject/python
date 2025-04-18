@@ -13,6 +13,8 @@ class Test:
     def teardown_method(self):
         del self.tv1
         del self.tv2
+        del self.tv3
+        del self.tv4
 
 
     def test__init__(self):
