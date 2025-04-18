@@ -41,7 +41,7 @@ class Television:
         if self.__status == True:
 
             if self.__muted == False:
-                unmuted_volume:int = self.__volume
+                unmuted_volume = self.__volume
                 self.__muted = True
                 self.__volume = self.MIN_VOLUME
 
